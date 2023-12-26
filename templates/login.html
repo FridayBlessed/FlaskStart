@@ -1,0 +1,26 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/login.css')}}">
+    <title>Welcome back!</title>
+</head>
+<body>
+    <header>
+        <h3>Welcome back, Please <span>log in</span> below.</h3>
+    </header>
+    <form class="login">  
+        <input type="text" placeholder="Username">  
+        <input type="password" placeholder="Password">  
+        <button>Login</button>  
+       </form>  
+       <a href="{{url_for('route')}}" class="center-link">Home Page</a> 
+       
+</body>
+</html>

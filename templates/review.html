@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <title>Customer Reviews!...</title>
+    <style>
+        body {
+            font-family: 'Fira Sans Extra Condensed', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: black;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        h1 {
+            margin: 20px 0;
+        }
+        .review {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+        }
+        .rating {
+            color: #f39c12;
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        p {
+            font-size: 16px;
+        }
+
+        a:hover{
+            color: #333;
+        }
+
+        a{
+            text-decoration: none;
+            color: #f39c12;
+            text-align: center;
+
+            padding: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Facial Cream 5-Star Review</h1>
+    </header>
+    <div class="review">
+        <div class="rating">⭐⭐⭐⭐⭐</div>
+        <p>This facial cream is amazing! It left my skin feeling smooth and refreshed. I've been using it for a month now, and I've noticed a significant improvement in my skin's texture and tone. Highly recommended!</p>
+        <p>-- Happy Customer</p>
+    </div>
+    <a href="{{url_for('route')}}">Go back to the home page</a>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/styles.css')}}">
+<img src="{{ url_for('static', filename='assets/images/transformed.png') }}" alt="facial product">
+</body>
+    <title>Janssen Cosmetics!</title>
+</head>
+<body>
+    <style>
+        menu {text-align: center;}
+        
+    </style>
+    <div class="menu"></div>
+    <nav id="menubar">
+        <div class="container">
+        <ul class="contents">
+            <li><a href="{{url_for('form')}}">Register</a></li>
+            <li><a href="{{url_for('login')}}">login</a></li>
+            <li><a href="{{url_for('Reviews')}}">Reviews</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <section class="Headline">
+        <div class="text-wrapper">
+            <h1>Rediscover Radiant Beauty Unveil Your Natural <span>Glow</span> with Our Luxurious Facial Cream!</h1>
+        </div>
+           <p class="y2">Revitalize, Hydrate, and Rejuvenate Your Skin for a Youthful, <span class="c1">Ageless Appearance.</span> </p>
+        
+           <button class="btn">SHOP NOW</a> </button>
+        
+           <a href="{{url_for('Reviews')}}">
+<p class="rate"> &#9733;&#9733;&#9733;&#9733;&#9733;<span class="reviews">400+ Reviews</span></p>
+</a>
+            
+                
+
+            
+    </section>
+    <div class="ctn">
+    
+</div>
+
+</body>
+</html>

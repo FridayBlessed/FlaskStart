@@ -1,0 +1,247 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    background-color:black;
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    padding: 100px 15%;
+
+}
+img{
+    max-width: 100%;
+    width:500px;
+    height:auto;
+    position:absolute; 
+    top: 0; 
+    right: 0;
+    
+    
+}
+
+
+
+#menubar{
+    
+ margin: 15px;
+
+}
+
+#menubar ul{
+    padding:0;
+    list-style:none;
+    display: inline-flex;
+}
+#menubar a:hover{
+    color: whitesmoke;
+}
+
+#menubar a:active{
+    color:green;
+}
+
+#menubar li{
+    display:inline-flex;
+}
+
+#menubar a{
+    color:goldenrod;
+    text-decoration:none;
+    font-size: 18px;
+    padding-right:40px;
+}
+
+
+span{
+    color:#d3af37;
+}
+
+.c1{
+    color:#d3af37;
+    
+}
+
+
+
+  .text-wrapper {
+    word-wrap: break-word; /* Allows long words to break and wrap onto the next line */
+    white-space: normal; 
+    width: 400px; 
+    overflow: hidden; 
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left:40px;
+    
+  }
+
+  .y2{
+    margin: 40px ;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+
+  }
+
+  .btn{
+    display: inline-block;
+    background: #f9004d;
+    font-size: 1.1rem;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    width:220px;
+    transition: ease .20s;
+    cursor:pointer ;
+    text-decoration: none;
+    
+
+}
+
+.rate{
+    color: #d3af37;
+    font-size: 20px;
+}
+.reviews{
+    color: beige;
+}
+.container{
+    margin: 15px;
+    padding:5px;
+}
+
+.reviewss{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: auto; 
+    letter-spacing: 1.1px;
+}
+
+.ctn{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: auto; 
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.btn:hover{
+    border: 2px solid purple;
+    background: transparent;
+    transform:scale(1.1);
+}
+
+
+  @media (max-width: 1570px){
+    section{
+        padding: 80px 3%;
+        transition: .2s;
+    }
+    
+
+    #menubar{
+        
+        position: fixed;
+    }
+
+        button{
+            margin-bottom: 0px;
+            width: 60vw;
+            padding: 10px 5px;
+            margin: 40px;
+            
+        
+        }
+
+        .reviews{
+            margin: 40px;
+            color: whitesmoke;
+        }
+
+        .rate{
+            margin-left: 40px;
+            
+        }
+
+        a.hover .reviews{
+            color: aqua;
+        }
+    
+    
+        @media only screen and (max-width: 600px)  {
+            
+
+            img{
+                max-width: 100%;
+                width:500px;
+                height:auto;
+                position:fixed; 
+                top: 100%; 
+                right: 0;
+                
+                
+                
+            }
+
+            
+
+            
+            
+
+
+
+            .reviewss{
+                display: flex; 
+                justify-content: right;
+                align-items: right; 
+                position:absolute;
+                height: auto;
+                top: auto;
+                
+            }
+
+            .container{
+                display: inline-block;
+                max-width: 101px;
+                padding: 0;
+                margin: 0;
+                
+            
+                
+            }
+
+            .container  {
+                padding: 10px; /* Adjust this value to add space between sidebar items */
+                text-align: center;
+            }
+            }
+
+            .contents{
+                margin:auto;
+                margin: 20px;
+                text-transform: capitalize;
+    
+                }
+            
+
+            button{
+                margin-bottom: 0px;
+                width: 60vw;
+                padding: 10px 5px;
+            
+            }
+
+        
+    
+                
+            }
+    
+
