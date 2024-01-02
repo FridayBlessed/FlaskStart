@@ -28,7 +28,7 @@ def hello_world():
 $ pip install flask-security
 
 ```
-## Install requirements by typing..
+## Install requirements by typing....
 ```
 $ pip install -r requirements.txt
 ```
